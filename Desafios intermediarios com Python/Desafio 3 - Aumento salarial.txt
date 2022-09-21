@@ -49,4 +49,9 @@ salString = str(s)
 novoSal = salString.split('.')
 reString = str(r)
 novoRe = reString.split('.')
-print(f"Novo salario: {novoSal[0]},00 Reajuste ganho: {novoRe[0]},00 Em percentual: {p} %")
+
+print(f"Novo salario: {novoSal[0]}.00")
+
+print(f"Reajuste ganho: {novoRe[0]}.00")
+
+print(f"Em percentual: {p} %")
